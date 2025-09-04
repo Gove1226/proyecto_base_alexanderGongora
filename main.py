@@ -15,8 +15,10 @@ def main():
             print(f"Resultado: {CalculadoraAvanzada.potencia(base, exponente)}")
 
         elif opcion == "2":
-            numero = float(input("Ingresa el número: "))
-            print(f"Resultado: {CalculadoraAvanzada.raiz_cuadrada(numero)}")
+            rad = float(input("Ingresa el radicando: "))
+            ind = int(input("Ingresa el índice de la raíz: "))
+
+            print(f"Resultado: {CalculadoraAvanzada.raiz_cuadrada(rad,ind)}")
 
         elif opcion == "3":
             print("Saliendo de la calculadora...")
